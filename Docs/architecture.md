@@ -1,9 +1,19 @@
 # SmartHotelAI - Architecture Documentation
 
 ## 1. Project Overview
-SmartHotelAI is a console-based hotel management system enhanced with advanced AI capabilities using **Microsoft Semantic Kernel**. The project focuses on demonstrating enterprise-grade AI integration, including natural language intent classification, programmatic routing, and intelligent fraud detection.
+SmartHotelAI is a console-based hotel management system built following the **OpenClaw Architecture Pattern**, enhanced with advanced AI capabilities using **Microsoft Semantic Kernel**. The project serves as a practical showcase for enterprise-grade AI integration, focusing on natural language intent classification, programmatic routing, and intelligent fraud detection while significantly reducing LLM token usage.
 
-## 2. High-Level Architecture
+## 2. The OpenClaw Architecture Pattern
+
+SmartHotelAI implements the **OpenClaw Project Pattern**. This pattern is designed to solve the issues of high latency, high cost, and unpredictability common in typical conversational AI systems. 
+
+**Core Concept:** Separate *Understanding* from *Execution*. Instead of relying on an LLM to figure out tool selection and orchestration on the fly, OpenClaw mandates that the LLM is only used as an **Intent Classifier and Parameter Extractor**. The actual routing and execution happen deterministically in native code.
+
+### How it is implemented in SmartHotelAI:
+1. **Understanding Layer**: When a user inputs "book a room for 3 nights", the system calls the LLM just once. The LLM returns a structured object: `{ Intent: "BookRoom", Nights: 3 }`.
+2. **Execution Layer**: The `HotelAssistantOrchestrator` receives the object and uses programmatic routing to pass the data directly to the `BookingService` without needing any further LLM intervention.
+
+### High-Level Flow Diagram
 
 ```mermaid
 graph TD

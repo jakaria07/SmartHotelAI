@@ -1,8 +1,8 @@
 # 🏨 SmartHotelAI
 
-> An enterprise-grade, AI-enhanced hotel management system powered by **Microsoft Semantic Kernel**.
+> An **OpenClaw-style**, AI-enhanced hotel management system powered by **Microsoft Semantic Kernel**.
 
-SmartHotelAI demonstrates a highly optimized architecture for integrating Large Language Models (LLMs) into business applications. By replacing traditional "conversational AI agents" with an **Intent-First Design** and **Programmatic Routing**, the system achieves an **82.5% reduction in token usage** while maintaining advanced natural language capabilities.
+SmartHotelAI is built following the **OpenClaw Architecture Pattern**, demonstrating a highly optimized way to integrate Large Language Models (LLMs) into business applications. By replacing traditional "conversational AI agents" with an **Intent-First Design** and **Programmatic Routing**, the system achieves an **82.5% reduction in token usage** while maintaining advanced natural language capabilities.
 
 ---
 
@@ -15,9 +15,15 @@ SmartHotelAI demonstrates a highly optimized architecture for integrating Large 
 
 ---
 
-## 🏗️ Architecture Overview
+## 🏗️ The OpenClaw Architecture Pattern
 
-The solution consists of four distinct projects to safely separate core business logic from AI orchestration.
+This project implements the **OpenClaw Project Pattern**, an architectural design focused on maximizing predictability and efficiency in LLM-powered applications. Instead of letting an LLM autonomously determine when and how to call tools (which is slow, expensive, and non-deterministic), the OpenClaw approach cleanly separates **Understanding** (AI) from **Execution** (Code).
+
+### How OpenClaw is Implemented Here:
+1. **Understand (LLM Phase)**: The LLM analyzes the user input strictly to classify the *intent* and extract parameters (e.g., intent: `BookRoom`, parameters: `[RoomType, Nights]`).
+2. **Execute (Code Phase)**: The orchestrator uses native programmatic routing to trigger the exact backend service needed, entirely bypassing the LLM for execution.
+
+The solution consists of four distinct projects to safely separate core business logic from AI orchestration:
 
 ```mermaid
 graph TD
