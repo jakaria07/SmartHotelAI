@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartHotelAI.AI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+088aa143f91022e8c66e0f71a968af45b88d2c2a")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartHotelAI.AI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartHotelAI.AI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

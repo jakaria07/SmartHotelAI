@@ -35,6 +35,7 @@ D:\Project\AI\SmartHotelAI\SmartHotelAI.Api\obj\Debug\net10.0\SmartHotelAI.Api.A
 D:\Project\AI\SmartHotelAI\SmartHotelAI.Api\obj\Debug\net10.0\SmartHotelAI.Api.csproj.CoreCompileInputs.cache
 D:\Project\AI\SmartHotelAI\SmartHotelAI.Api\obj\Debug\net10.0\SmartHotelAI.Api.MvcApplicationPartsAssemblyInfo.cs
 D:\Project\AI\SmartHotelAI\SmartHotelAI.Api\obj\Debug\net10.0\SmartHotelAI.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\Project\AI\SmartHotelAI\SmartHotelAI.Api\obj\Debug\net10.0\SmartHotelAI.Api.sourcelink.json
 D:\Project\AI\SmartHotelAI\SmartHotelAI.Api\obj\Debug\net10.0\rjimswa.dswa.cache.json
 D:\Project\AI\SmartHotelAI\SmartHotelAI.Api\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
 D:\Project\AI\SmartHotelAI\SmartHotelAI.Api\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json

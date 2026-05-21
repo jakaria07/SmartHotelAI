@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "UrKQ+M1IuEk=",
+  "dgSpecHash": "gSkO+aJR0K0=",
   "success": true,
   "projectFilePath": "D:\\Project\\AI\\SmartHotelAI\\SmartHotelAI.Console\\SmartHotelAI.Console.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Wndows 10\\.nuget\\packages\\azure.ai.openai\\2.9.0-beta.1\\azure.ai.openai.2.9.0-beta.1.nupkg.sha512",
     "C:\\Users\\Wndows 10\\.nuget\\packages\\azure.core\\1.51.1\\azure.core.1.51.1.nupkg.sha512",
+    "C:\\Users\\Wndows 10\\.nuget\\packages\\dotenv.net\\4.0.2\\dotenv.net.4.0.2.nupkg.sha512",
     "C:\\Users\\Wndows 10\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.0\\microsoft.aspnetcore.openapi.10.0.0.nupkg.sha512",
     "C:\\Users\\Wndows 10\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\10.0.2\\microsoft.bcl.asyncinterfaces.10.0.2.nupkg.sha512",
     "C:\\Users\\Wndows 10\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",

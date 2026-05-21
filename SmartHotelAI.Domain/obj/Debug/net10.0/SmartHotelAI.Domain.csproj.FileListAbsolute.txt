@@ -5,6 +5,7 @@ D:\Project\AI\SmartHotelAI\SmartHotelAI.Domain\obj\Debug\net10.0\SmartHotelAI.Do
 D:\Project\AI\SmartHotelAI\SmartHotelAI.Domain\obj\Debug\net10.0\SmartHotelAI.Domain.AssemblyInfoInputs.cache
 D:\Project\AI\SmartHotelAI\SmartHotelAI.Domain\obj\Debug\net10.0\SmartHotelAI.Domain.AssemblyInfo.cs
 D:\Project\AI\SmartHotelAI\SmartHotelAI.Domain\obj\Debug\net10.0\SmartHotelAI.Domain.csproj.CoreCompileInputs.cache
+D:\Project\AI\SmartHotelAI\SmartHotelAI.Domain\obj\Debug\net10.0\SmartHotelAI.Domain.sourcelink.json
 D:\Project\AI\SmartHotelAI\SmartHotelAI.Domain\obj\Debug\net10.0\SmartHotelAI.Domain.dll
 D:\Project\AI\SmartHotelAI\SmartHotelAI.Domain\obj\Debug\net10.0\refint\SmartHotelAI.Domain.dll
 D:\Project\AI\SmartHotelAI\SmartHotelAI.Domain\obj\Debug\net10.0\SmartHotelAI.Domain.pdb

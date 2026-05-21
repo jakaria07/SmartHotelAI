@@ -16,6 +16,7 @@ D:\Project\AI\SmartHotelAI\SmartHotelAI.AI\obj\Debug\net10.0\SmartHotelAI.AI.Gen
 D:\Project\AI\SmartHotelAI\SmartHotelAI.AI\obj\Debug\net10.0\SmartHotelAI.AI.AssemblyInfoInputs.cache
 D:\Project\AI\SmartHotelAI\SmartHotelAI.AI\obj\Debug\net10.0\SmartHotelAI.AI.AssemblyInfo.cs
 D:\Project\AI\SmartHotelAI\SmartHotelAI.AI\obj\Debug\net10.0\SmartHotelAI.AI.csproj.CoreCompileInputs.cache
+D:\Project\AI\SmartHotelAI\SmartHotelAI.AI\obj\Debug\net10.0\SmartHotelAI.AI.sourcelink.json
 D:\Project\AI\SmartHotelAI\SmartHotelAI.AI\obj\Debug\net10.0\SmartHot.B587E920.Up2Date
 D:\Project\AI\SmartHotelAI\SmartHotelAI.AI\obj\Debug\net10.0\SmartHotelAI.AI.dll
 D:\Project\AI\SmartHotelAI\SmartHotelAI.AI\obj\Debug\net10.0\refint\SmartHotelAI.AI.dll

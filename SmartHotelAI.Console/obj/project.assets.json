@@ -37,6 +37,15 @@
           }
         }
       },
+      "dotenv.net/4.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/dotenv.net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/dotenv.net.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.OpenApi/10.0.0": {
         "type": "package",
         "dependencies": {
@@ -519,6 +528,7 @@
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
           "Microsoft.SemanticKernel": "1.76.0",
+          "Microsoft.SemanticKernel.Connectors.OpenAI": "1.76.0",
           "SmartHotelAI.Api": "1.0.0",
           "SmartHotelAI.Domain": "1.0.0"
         },
@@ -602,6 +612,20 @@
         "lib/net8.0/Azure.Core.xml",
         "lib/netstandard2.0/Azure.Core.dll",
         "lib/netstandard2.0/Azure.Core.xml"
+      ]
+    },
+    "dotenv.net/4.0.2": {
+      "sha512": "6xpiqKV1aKWIkSSDP7J+60GEKUitiDweD4yOsn9giCMysSfCghJQuYfXQwbzgdmt0Bsv/2ajUCbjvemGavqItA==",
+      "type": "package",
+      "path": "dotenv.net/4.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "dotenv.net.4.0.2.nupkg.sha512",
+        "dotenv.net.nuspec",
+        "lib/netstandard2.0/dotenv.net.dll",
+        "lib/netstandard2.1/dotenv.net.dll"
       ]
     },
     "Microsoft.AspNetCore.OpenApi/10.0.0": {
@@ -1360,7 +1384,8 @@
   "projectFileDependencyGroups": {
     "net10.0": [
       "SmartHotelAI.AI >= 1.0.0",
-      "SmartHotelAI.Api >= 1.0.0"
+      "SmartHotelAI.Api >= 1.0.0",
+      "dotenv.net >= 4.0.2"
     ]
   },
   "packageFolders": {
@@ -1420,6 +1445,12 @@
     "frameworks": {
       "net10.0": {
         "targetAlias": "net10.0",
+        "dependencies": {
+          "dotenv.net": {
+            "target": "Package",
+            "version": "[4.0.2, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

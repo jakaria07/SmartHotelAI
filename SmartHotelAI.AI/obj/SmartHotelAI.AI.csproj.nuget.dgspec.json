@@ -61,6 +61,10 @@
             "Microsoft.SemanticKernel": {
               "target": "Package",
               "version": "[1.76.0, )"
+            },
+            "Microsoft.SemanticKernel.Connectors.OpenAI": {
+              "target": "Package",
+              "version": "[1.76.0, )"
             }
           },
           "imports": [

@@ -39,18 +39,20 @@ public class FraudService
         }
 
         // ========== RULE 1: RAPID BOOKINGS DETECTION ==========
-        // Detect if multiple bookings made in short time (potential bot/mass booking)
-        var recentBookings = _bookingService.GetAll()
-            .Where(b => b.CreatedAt > DateTime.UtcNow.AddMinutes(-5))
+        // Detect if THIS SPECIFIC GUEST made multiple bookings in short time (potential bot/mass booking)
+        // Per-guest check: Only flag if THIS guest has >3 bookings in 5 minutes
+        var guestRecentBookings = _bookingService.GetAll()
+            .Where(b => b.GuestName == booking.GuestName &&
+                        b.CreatedAt > DateTime.UtcNow.AddMinutes(-5))
             .Count();
         
-        if(recentBookings > 3)
+        if(guestRecentBookings > 3)
         {
             return new FraudResult
             {
                 IsSuspicious = true,
                 RiskLevel = "High",
-                Reason = "Multiple bookings in short time (> 3 in 5 minutes)"
+                Reason = "This guest made multiple bookings in short time (> 3 in 5 minutes)"
             };
         }
 

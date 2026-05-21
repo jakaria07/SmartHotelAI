@@ -9,6 +9,7 @@
       "SmartHotelAI.AI/1.0.0": {
         "dependencies": {
           "Microsoft.SemanticKernel": "1.76.0",
+          "Microsoft.SemanticKernel.Connectors.OpenAI": "1.76.0",
           "SmartHotelAI.Api": "1.0.0",
           "SmartHotelAI.Domain": "1.0.0"
         },

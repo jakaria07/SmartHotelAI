@@ -9,7 +9,8 @@
       "SmartHotelAI.Console/1.0.0": {
         "dependencies": {
           "SmartHotelAI.AI": "1.0.0",
-          "SmartHotelAI.Api": "1.0.0"
+          "SmartHotelAI.Api": "1.0.0",
+          "dotenv.net": "4.0.2"
         },
         "runtime": {
           "SmartHotelAI.Console.dll": {}
@@ -37,6 +38,14 @@
           "lib/net10.0/Azure.Core.dll": {
             "assemblyVersion": "1.51.1.0",
             "fileVersion": "1.5100.126.10405"
+          }
+        }
+      },
+      "dotenv.net/4.0.2": {
+        "runtime": {
+          "lib/netstandard2.1/dotenv.net.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.0.2.0"
           }
         }
       },
@@ -339,6 +348,7 @@
       "SmartHotelAI.AI/1.0.0": {
         "dependencies": {
           "Microsoft.SemanticKernel": "1.76.0",
+          "Microsoft.SemanticKernel.Connectors.OpenAI": "1.76.0",
           "SmartHotelAI.Api": "1.0.0",
           "SmartHotelAI.Domain": "1.0.0"
         },
@@ -391,6 +401,13 @@
       "sha512": "sha512-JRANrRvN5O5FFRh+pMUb8qqWU7jBQ39qXEbVr7Rkb1/s7rqc6RSzVHKGBz5Ro1gDy2WSGjG5YEOJKpPIBiCMcA==",
       "path": "azure.core/1.51.1",
       "hashPath": "azure.core.1.51.1.nupkg.sha512"
+    },
+    "dotenv.net/4.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6xpiqKV1aKWIkSSDP7J+60GEKUitiDweD4yOsn9giCMysSfCghJQuYfXQwbzgdmt0Bsv/2ajUCbjvemGavqItA==",
+      "path": "dotenv.net/4.0.2",
+      "hashPath": "dotenv.net.4.0.2.nupkg.sha512"
     },
     "Microsoft.AspNetCore.OpenApi/10.0.0": {
       "type": "package",
